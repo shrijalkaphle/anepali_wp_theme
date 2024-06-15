@@ -7,6 +7,16 @@
     <link rel="shortcut icon" href="<?php echo get_template_directory_uri() . '/assets/favicon.png' ?>" type="image/png">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/style.css' ?>">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/assets/css/tailwind.css' ?>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <style>
+        html {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+
     <?php wp_head(); ?>
 </head>
 <body>

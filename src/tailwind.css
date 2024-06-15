@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .container {
+        @apply xl:w-[1200px] lg:w-[1000px] lg:mx-5 mx-auto xl:mx-auto w-[95%];
+    }
+
+    .title {
+        @apply text-[40px] font-semibold leading-[48px] text-neutral-900;
+    }
+
+    h2 {
+        @apply font-semibold text-2xl leading-8 mt-[60px];
+    }
+
+    .content p {
+        @apply mt-6;
+    }
+
+    .wp-block-image img {
+        @apply my-[50px];
+    }
+
+    .pagination .page-numbers{
+        @apply border border-neutral-200 rounded-lg text-neutral-800 font-medium min-w-10 h-10 flex items-center justify-center hover:bg-neutral-100 p-2.5;
+    }
+
+    .pagination .page-numbers.current{
+        @apply bg-blue-700 text-white border-transparent;
+    }
+}
